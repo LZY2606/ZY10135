@@ -1,0 +1,57 @@
+{
+  "name": "demo-field-01",
+  "frames": 8,
+  "importSource": "external-segmenter:run-1712",
+  "contours": [
+    { "id": "c_a0", "frame": 0, "externalId": "f0#A", "cx": 60, "cy": 50, "area": 120, "boundary": [[50, 40], [70, 40], [70, 60], [50, 60]] },
+    { "id": "c_b0", "frame": 0, "externalId": "f0#B", "cx": 200, "cy": 50, "area": 130, "boundary": [[190, 40], [210, 40], [210, 60], [190, 60]] },
+    { "id": "c_z0", "frame": 0, "externalId": "f0#Z", "cx": 320, "cy": 120, "area": 110, "boundary": [[310, 110], [330, 110], [330, 130], [310, 130]] },
+
+    { "id": "c_a1", "frame": 1, "externalId": "f1#A", "cx": 62, "cy": 52, "area": 124, "boundary": [[52, 42], [72, 42], [72, 62], [52, 62]] },
+    { "id": "c_b1", "frame": 1, "externalId": "f1#B", "cx": 202, "cy": 52, "area": 128, "boundary": [[192, 42], [212, 42], [212, 62], [192, 62]] },
+    { "id": "c_z1", "frame": 1, "externalId": "f1#Z", "cx": 322, "cy": 122, "area": 112, "boundary": [[312, 112], [332, 112], [332, 132], [312, 132]] },
+
+    { "id": "c_a2", "frame": 2, "externalId": "f2#A", "cx": 64, "cy": 54, "area": 126, "boundary": [[54, 44], [74, 44], [74, 64], [54, 64]] },
+    { "id": "c_b2", "frame": 2, "externalId": "f2#B", "cx": 204, "cy": 54, "area": 132, "boundary": [[194, 44], [214, 44], [214, 64], [194, 64]] },
+    { "id": "c_d2", "frame": 2, "externalId": "f2#D", "cx": 120, "cy": 56, "area": 96, "boundary": [[112, 48], [128, 48], [128, 64], [112, 64]] },
+
+    { "id": "c_a3", "frame": 3, "externalId": "f3#A", "cx": 66, "cy": 56, "area": 122, "boundary": [[56, 46], [76, 46], [76, 66], [56, 66]] },
+    { "id": "c_b3", "frame": 3, "externalId": "f3#B", "cx": 206, "cy": 56, "area": 134, "boundary": [[196, 46], [216, 46], [216, 66], [196, 66]] },
+    { "id": "c_d3", "frame": 3, "externalId": "f3#D", "cx": 122, "cy": 58, "area": 94, "boundary": [[114, 50], [130, 50], [130, 66], [114, 66]] },
+
+    { "id": "c_a4", "frame": 4, "externalId": "f4#A", "cx": 68, "cy": 58, "area": 120, "boundary": [[58, 48], [78, 48], [78, 68], [58, 68]] },
+
+    { "id": "c_a5", "frame": 5, "externalId": "f5#A", "cx": 70, "cy": 60, "area": 124, "boundary": [[60, 50], [80, 50], [80, 70], [60, 70]] },
+    { "id": "c_b5", "frame": 5, "externalId": "f5#B", "cx": 210, "cy": 60, "area": 130, "boundary": [[200, 50], [220, 50], [220, 70], [200, 70]] },
+
+    { "id": "c_a6", "frame": 6, "externalId": "f6#A", "cx": 72, "cy": 62, "area": 126, "boundary": [[62, 52], [82, 52], [82, 72], [62, 72]] },
+    { "id": "c_b6", "frame": 6, "externalId": "f6#B", "cx": 212, "cy": 62, "area": 128, "boundary": [[202, 52], [222, 52], [222, 72], [202, 72]] },
+
+    { "id": "c_a7", "frame": 7, "externalId": "f7#A", "cx": 74, "cy": 64, "area": 124, "boundary": [[64, 54], [84, 54], [84, 74], [64, 74]] },
+    { "id": "c_m7", "frame": 7, "externalId": "f7#M", "cx": 150, "cy": 62, "area": 240, "boundary": [[132, 48], [168, 48], [168, 76], [132, 76]] }
+  ],
+  "candidates": [
+    { "id": "t0-1", "runId": "run-1712", "fromContourId": "c_a0", "toContourId": "c_a1", "kind": "continuation", "score": 0.97, "raw": { "method": "nearest-neighbor", "dist": 2.8 } },
+    { "id": "t0-2", "runId": "run-1712", "fromContourId": "c_a1", "toContourId": "c_a2", "kind": "continuation", "score": 0.95, "raw": { "method": "nearest-neighbor", "dist": 2.8 } },
+    { "id": "t0-3", "runId": "run-1712", "fromContourId": "c_a2", "toContourId": "c_a3", "kind": "continuation", "score": 0.93, "raw": { "method": "nearest-neighbor", "dist": 2.8 } },
+    { "id": "t0-4", "runId": "run-1712", "fromContourId": "c_a3", "toContourId": "c_a4", "kind": "continuation", "score": 0.94, "raw": { "method": "nearest-neighbor", "dist": 2.8 } },
+    { "id": "t0-5", "runId": "run-1712", "fromContourId": "c_a4", "toContourId": "c_a5", "kind": "continuation", "score": 0.61, "raw": { "method": "nearest-neighbor", "note": "frame4->5 B went silent briefly" } },
+    { "id": "t0-6", "runId": "run-1712", "fromContourId": "c_a5", "toContourId": "c_a6", "kind": "continuation", "score": 0.96, "raw": { "method": "nearest-neighbor" } },
+    { "id": "t0-7", "runId": "run-1712", "fromContourId": "c_a6", "toContourId": "c_a7", "kind": "continuation", "score": 0.95, "raw": { "method": "nearest-neighbor" } },
+
+    { "id": "t0-8", "runId": "run-1712", "fromContourId": "c_a2", "toContourId": "c_b3", "kind": "continuation", "score": 0.42, "raw": { "method": "tracklet-stitch", "note": "crowded: competing assignment" } },
+    { "id": "t0-9", "runId": "run-1712", "fromContourId": "c_b2", "toContourId": "c_b3", "kind": "continuation", "score": 0.88, "raw": { "method": "tracklet-stitch" } },
+    { "id": "t0-10", "runId": "run-1712", "fromContourId": "c_b1", "toContourId": "c_b2", "kind": "continuation", "score": 0.9, "raw": { "method": "nearest-neighbor" } },
+    { "id": "t0-11", "runId": "run-1712", "fromContourId": "c_b0", "toContourId": "c_b1", "kind": "continuation", "score": 0.91, "raw": { "method": "nearest-neighbor" } },
+
+    { "id": "t0-12", "runId": "run-1712", "fromContourId": "c_b2", "toContourId": "c_d3", "kind": "division", "score": 0.33, "raw": { "method": "appearance-model", "note": "weak division guess: only one daughter proposed" } },
+
+    { "id": "t0-13", "runId": "run-1712", "fromContourId": "c_b3", "toContourId": "c_b5", "kind": "continuation", "score": 0.34, "raw": { "method": "gap-fill", "note": "B missing in f4" } },
+    { "id": "t0-14", "runId": "run-1712", "fromContourId": "c_b5", "toContourId": "c_b6", "kind": "continuation", "score": 0.92, "raw": { "method": "nearest-neighbor" } },
+
+    { "id": "t0-15", "runId": "run-1712", "fromContourId": "c_a6", "toContourId": "c_m7", "kind": "merge", "score": 0.58, "raw": { "method": "overlap-merge" } },
+    { "id": "t0-16", "runId": "run-1712", "fromContourId": "c_b6", "toContourId": "c_m7", "kind": "merge", "score": 0.57, "raw": { "method": "overlap-merge" } },
+
+    { "id": "t0-17", "runId": "run-1712", "fromContourId": "c_z0", "toContourId": "c_z1", "kind": "continuation", "score": 0.89, "raw": { "method": "nearest-neighbor" } }
+  ]
+}
