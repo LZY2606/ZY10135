@@ -1,0 +1,807 @@
+{
+  "dataset_hash": "fixture_9ff3961e814825cb",
+  "name": "tiny-lineage",
+  "width": 400,
+  "height": 240,
+  "frames": [
+    {
+      "frame": 0,
+      "contours": [
+        {
+          "uid": "f0_a",
+          "center": {
+            "x": 60,
+            "y": 80
+          },
+          "area": 120,
+          "boundary": [
+            [
+              0,
+              0
+            ],
+            [
+              10,
+              0
+            ],
+            [
+              10,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          "source": "seg-v1"
+        },
+        {
+          "uid": "f0_b",
+          "center": {
+            "x": 220,
+            "y": 160
+          },
+          "area": 95,
+          "boundary": [
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          "source": "seg-v1"
+        },
+        {
+          "uid": "f0_c",
+          "center": {
+            "x": 340,
+            "y": 70
+          },
+          "area": 110,
+          "boundary": [
+            [
+              0,
+              0
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              9,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          "source": "seg-v1"
+        }
+      ]
+    },
+    {
+      "frame": 1,
+      "contours": [
+        {
+          "uid": "f1_a",
+          "center": {
+            "x": 66,
+            "y": 84
+          },
+          "area": 124,
+          "boundary": [
+            [
+              0,
+              0
+            ],
+            [
+              10,
+              0
+            ],
+            [
+              10,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          "source": "seg-v1"
+        },
+        {
+          "uid": "f1_b",
+          "center": {
+            "x": 224,
+            "y": 158
+          },
+          "area": 99,
+          "boundary": [
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          "source": "seg-v1"
+        },
+        {
+          "uid": "f1_c",
+          "center": {
+            "x": 336,
+            "y": 72
+          },
+          "area": 108,
+          "boundary": [
+            [
+              0,
+              0
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              9,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          "source": "seg-v1"
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "contours": [
+        {
+          "uid": "f2_a1",
+          "center": {
+            "x": 52,
+            "y": 60
+          },
+          "area": 60,
+          "boundary": [
+            [
+              0,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              0,
+              6
+            ]
+          ],
+          "source": "seg-v1"
+        },
+        {
+          "uid": "f2_a2",
+          "center": {
+            "x": 80,
+            "y": 104
+          },
+          "area": 62,
+          "boundary": [
+            [
+              0,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              0,
+              6
+            ]
+          ],
+          "source": "seg-v1"
+        },
+        {
+          "uid": "f2_b",
+          "center": {
+            "x": 228,
+            "y": 156
+          },
+          "area": 101,
+          "boundary": [
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          "source": "seg-v1"
+        },
+        {
+          "uid": "f2_c",
+          "center": {
+            "x": 332,
+            "y": 76
+          },
+          "area": 105,
+          "boundary": [
+            [
+              0,
+              0
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              9,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          "source": "seg-v1"
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "contours": [
+        {
+          "uid": "f3_a1",
+          "center": {
+            "x": 48,
+            "y": 58
+          },
+          "area": 61,
+          "boundary": [
+            [
+              0,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              0,
+              6
+            ]
+          ],
+          "source": "seg-v1"
+        },
+        {
+          "uid": "f3_a2",
+          "center": {
+            "x": 84,
+            "y": 106
+          },
+          "area": 63,
+          "boundary": [
+            [
+              0,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              0,
+              6
+            ]
+          ],
+          "source": "seg-v1"
+        },
+        {
+          "uid": "f3_b",
+          "center": {
+            "x": 232,
+            "y": 154
+          },
+          "area": 103,
+          "boundary": [
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          "source": "seg-v1"
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "contours": [
+        {
+          "uid": "f4_a1",
+          "center": {
+            "x": 44,
+            "y": 56
+          },
+          "area": 62,
+          "boundary": [
+            [
+              0,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              0,
+              6
+            ]
+          ],
+          "source": "seg-v1"
+        },
+        {
+          "uid": "f4_a2",
+          "center": {
+            "x": 88,
+            "y": 108
+          },
+          "area": 64,
+          "boundary": [
+            [
+              0,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              0,
+              6
+            ]
+          ],
+          "source": "seg-v1"
+        },
+        {
+          "uid": "f4_b",
+          "center": {
+            "x": 236,
+            "y": 152
+          },
+          "area": 105,
+          "boundary": [
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          "source": "seg-v1"
+        },
+        {
+          "uid": "f4_c",
+          "center": {
+            "x": 326,
+            "y": 82
+          },
+          "area": 107,
+          "boundary": [
+            [
+              0,
+              0
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              9,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          "source": "seg-v1"
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "contours": [
+        {
+          "uid": "f5_a1",
+          "center": {
+            "x": 40,
+            "y": 54
+          },
+          "area": 63,
+          "boundary": [
+            [
+              0,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              0,
+              6
+            ]
+          ],
+          "source": "seg-v1"
+        },
+        {
+          "uid": "f5_a2",
+          "center": {
+            "x": 92,
+            "y": 110
+          },
+          "area": 65,
+          "boundary": [
+            [
+              0,
+              0
+            ],
+            [
+              7,
+              0
+            ],
+            [
+              7,
+              6
+            ],
+            [
+              0,
+              6
+            ]
+          ],
+          "source": "seg-v1"
+        },
+        {
+          "uid": "f5_b",
+          "center": {
+            "x": 240,
+            "y": 150
+          },
+          "area": 106,
+          "boundary": [
+            [
+              0,
+              0
+            ],
+            [
+              8,
+              0
+            ],
+            [
+              8,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          "source": "seg-v1"
+        },
+        {
+          "uid": "f5_c",
+          "center": {
+            "x": 322,
+            "y": 84
+          },
+          "area": 109,
+          "boundary": [
+            [
+              0,
+              0
+            ],
+            [
+              9,
+              0
+            ],
+            [
+              9,
+              8
+            ],
+            [
+              0,
+              8
+            ]
+          ],
+          "source": "seg-v1"
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "a01",
+      "from_uid": "f0_a",
+      "to_uid": "f1_a",
+      "from_frame": 0,
+      "to_frame": 1,
+      "score": 0.94,
+      "kind": "continuation",
+      "source": "tracker-X"
+    },
+    {
+      "id": "a12",
+      "from_uid": "f1_a",
+      "to_uid": "f2_a1",
+      "from_frame": 1,
+      "to_frame": 2,
+      "score": 0.71,
+      "kind": "division",
+      "source": "tracker-X"
+    },
+    {
+      "id": "a12b",
+      "from_uid": "f1_a",
+      "to_uid": "f2_a2",
+      "from_frame": 1,
+      "to_frame": 2,
+      "score": 0.69,
+      "kind": "division",
+      "source": "tracker-X"
+    },
+    {
+      "id": "a12_wrong",
+      "from_uid": "f1_a",
+      "to_uid": "f2_b",
+      "from_frame": 1,
+      "to_frame": 2,
+      "score": 0.32,
+      "kind": "continuation",
+      "source": "tracker-X"
+    },
+    {
+      "id": "b01",
+      "from_uid": "f0_b",
+      "to_uid": "f1_b",
+      "from_frame": 0,
+      "to_frame": 1,
+      "score": 0.91,
+      "kind": "continuation",
+      "source": "tracker-X"
+    },
+    {
+      "id": "b12",
+      "from_uid": "f1_b",
+      "to_uid": "f2_b",
+      "from_frame": 1,
+      "to_frame": 2,
+      "score": 0.9,
+      "kind": "continuation",
+      "source": "tracker-X"
+    },
+    {
+      "id": "b23",
+      "from_uid": "f2_b",
+      "to_uid": "f3_b",
+      "from_frame": 2,
+      "to_frame": 3,
+      "score": 0.88,
+      "kind": "continuation",
+      "source": "tracker-X"
+    },
+    {
+      "id": "b34",
+      "from_uid": "f3_b",
+      "to_uid": "f4_b",
+      "from_frame": 3,
+      "to_frame": 4,
+      "score": 0.87,
+      "kind": "continuation",
+      "source": "tracker-X"
+    },
+    {
+      "id": "b45",
+      "from_uid": "f4_b",
+      "to_uid": "f5_b",
+      "from_frame": 4,
+      "to_frame": 5,
+      "score": 0.86,
+      "kind": "continuation",
+      "source": "tracker-X"
+    },
+    {
+      "id": "c01",
+      "from_uid": "f0_c",
+      "to_uid": "f1_c",
+      "from_frame": 0,
+      "to_frame": 1,
+      "score": 0.93,
+      "kind": "continuation",
+      "source": "tracker-X"
+    },
+    {
+      "id": "c12",
+      "from_uid": "f1_c",
+      "to_uid": "f2_c",
+      "from_frame": 1,
+      "to_frame": 2,
+      "score": 0.89,
+      "kind": "continuation",
+      "source": "tracker-X"
+    },
+    {
+      "id": "c24",
+      "from_uid": "f2_c",
+      "to_uid": "f4_c",
+      "from_frame": 2,
+      "to_frame": 4,
+      "score": 0.41,
+      "kind": "continuation",
+      "source": "tracker-X"
+    },
+    {
+      "id": "c45",
+      "from_uid": "f4_c",
+      "to_uid": "f5_c",
+      "from_frame": 4,
+      "to_frame": 5,
+      "score": 0.85,
+      "kind": "continuation",
+      "source": "tracker-X"
+    },
+    {
+      "id": "d23_x",
+      "from_uid": "f2_a1",
+      "to_uid": "f3_a1",
+      "from_frame": 2,
+      "to_frame": 3,
+      "score": 0.82,
+      "kind": "continuation",
+      "source": "tracker-Y"
+    },
+    {
+      "id": "d23_y",
+      "from_uid": "f2_a2",
+      "to_uid": "f3_a2",
+      "from_frame": 2,
+      "to_frame": 3,
+      "score": 0.8,
+      "kind": "continuation",
+      "source": "tracker-Y"
+    },
+    {
+      "id": "d34_x",
+      "from_uid": "f3_a1",
+      "to_uid": "f4_a1",
+      "from_frame": 3,
+      "to_frame": 4,
+      "score": 0.81,
+      "kind": "continuation",
+      "source": "tracker-Y"
+    },
+    {
+      "id": "d34_y",
+      "from_uid": "f3_a2",
+      "to_uid": "f4_a2",
+      "from_frame": 3,
+      "to_frame": 4,
+      "score": 0.79,
+      "kind": "continuation",
+      "source": "tracker-Y"
+    },
+    {
+      "id": "d45_x",
+      "from_uid": "f4_a1",
+      "to_uid": "f5_a1",
+      "from_frame": 4,
+      "to_frame": 5,
+      "score": 0.8,
+      "kind": "continuation",
+      "source": "tracker-Y"
+    },
+    {
+      "id": "d45_y",
+      "from_uid": "f4_a2",
+      "to_uid": "f5_a2",
+      "from_frame": 4,
+      "to_frame": 5,
+      "score": 0.78,
+      "kind": "continuation",
+      "source": "tracker-Y"
+    },
+    {
+      "id": "merge_demo",
+      "from_uid": "f4_a1",
+      "to_uid": "f5_a2",
+      "from_frame": 4,
+      "to_frame": 5,
+      "score": 0.22,
+      "kind": "merge",
+      "source": "tracker-Z"
+    }
+  ]
+}

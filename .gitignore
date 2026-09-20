@@ -34,3 +34,12 @@ coverage/
 .vite/
 .turbo/
 *.tsbuildinfo
+
+# runtime / test artifacts
+data/*.sqlite
+data/*.sqlite-wal
+data/*.sqlite-shm
+test-results/
+playwright-report/
+blob-report/
+*.tmp.mjs

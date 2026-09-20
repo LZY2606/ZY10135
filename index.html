@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cell Lineage Editor · 细胞谱系编辑器</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <div class="brand">
+          <span class="logo">⌬</span>
+          <div>
+            <h1>细胞谱系编辑器</h1>
+            <small>Pair-wise GSB · frame links · division · occlusion · provenance</small>
+          </div>
+        </div>
+        <div class="dataset-picker">
+          <label for="dataset-select">数据集</label>
+          <select id="dataset-select"></select>
+          <button id="btn-new-hypothesis" class="ghost" title="创建新的并行假设">＋ 新假设</button>
+        </div>
+      </header>
+
+      <section class="hypothesis-bar">
+        <div class="hypothesis-tabs" id="hypothesis-tabs"></div>
+        <div class="version-info" id="version-info"></div>
+      </section>
+
+      <main class="workspace">
+        <aside class="panel candidates-panel" id="candidates-panel">
+          <div class="panel-head">
+            <h2>候选面板</h2>
+            <div class="legend">
+              <span title="continuation" class="kind kind-continuation">→</span>
+              <span title="division" class="kind kind-division">⤵</span>
+              <span title="merge" class="kind kind-merge">⇢</span>
+            </div>
+          </div>
+          <div class="panel-filters">
+            <input id="candidate-search" type="search" placeholder="搜索轮廓 ID / 帧…" />
+            <label class="check"><input type="checkbox" id="filter-pending" checked /> 仅待审</label>
+          </div>
+          <ul class="candidate-list" id="candidate-list"></ul>
+          <div class="panel-foot">
+            <button id="btn-refresh-candidates" class="ghost" title="模拟自动重跑：只添加新候选">⟳ 模拟重跑</button>
+          </div>
+        </aside>
+
+        <section class="panel canvas-panel">
+          <div class="panel-head">
+            <h2>帧带</h2>
+            <div class="tools">
+              <button data-tool="select" class="tool active" title="选择/拖动">⬚</button>
+              <button data-tool="link" class="tool" title="连接两个轮廓（普通延续）">→</button>
+              <button data-tool="division" class="tool" title="分裂：先点母细胞，再依次点两个子细胞">⤵</button>
+              <button data-tool="merge" class="tool" title="合并：依次点两个父细胞与一个子细胞">⇢</button>
+              <button data-tool="occlusion" class="tool" title="标记遮挡区间">👁</button>
+              <button data-tool="cut" class="tool danger-tool" title="断开边">✂</button>
+              <span class="spacer"></span>
+              <button id="btn-publish" class="primary" title="发布为新版本">发布新版本</button>
+            </div>
+          </div>
+          <div id="frame-ribbon" class="frame-ribbon"></div>
+          <div id="lineage-graph" class="lineage-graph"></div>
+          <div class="hint" id="canvas-hint">选择工具并在帧带中点击轮廓。红色高亮=不变量违规，虚线=遮挡跨帧。</div>
+        </section>
+
+        <aside class="panel detail-panel" id="detail-panel">
+          <div class="panel-head"><h2>检查器</h2></div>
+          <div id="inspector" class="inspector">
+            <p class="muted">未选中对象。点击轮廓、边或候选查看完整来源。</p>
+          </div>
+          <div class="panel-head"><h2>本版改动</h2></div>
+          <ul id="pending-edits" class="pending-edits"></ul>
+        </aside>
+      </main>
+
+      <div id="modal-root"></div>
+      <div id="toast-root"></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
